@@ -1,0 +1,73 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para el cuerpo */
+.main {
+    display: flex;               
+    flex-direction: column;     
+    justify-content: center;     
+    align-items: center;         
+    height: 100vh;            
+    padding: 20px;             
+    background-color: #f3f3f3; 
+}
+
+.header{
+    border: 2px solid hsl(248, 92%, 52%);
+    margin: auto;
+    height: 7rem;
+    display: flex;
+    justify-content: space-between;
+}
+.header img{
+    width:80px;
+    -min-height: auto;
+    margin-right: 10px;
+    border: 2px solid #000000;
+}
+
+.header h1{
+    font-size: 54px;
+    color: #FA553E;
+    margin: 1rem;
+}
+
+
+.questions h1 {
+    font-size: 22px;
+    color: #333;
+    margin-top: 50px;
+}
+
+.questions h2 {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.questions p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+form label {
+    font-size: 16px;
+    color: #333;
+    margin-right: 10px;
+}
+
+select {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+footer {
+    margin-top: 20px;
+}
