@@ -26,7 +26,7 @@
                 <h2>Selecciona una opción</h2>
                 <p><a href = "translate.php"; >1.- Se pide dos parámetros y devuelve traducido en inglés y francés</a></p>
                 <p><a href="ordenar.php">2.- Ordenar registro con atributos por fechas desde el más reciente</a></p>
-                <p><a href="#">3.- Guardar la fecha inicial y final de un proceso</a></p>
+                <p><a href="cadena.php">3.- Guardar la fecha inicial y final de un proceso</a></p>
                 <p><a href="#">4.- Hacer una copia de un archivo zip de gran tamaño y traerlo a tu equipo local</a></p>
                 <p><a href="#">5.- Ejecutas un código en PHP y el navegador te da un "timeout" ¿cómo lo solucionas?</a></p>
                       </div>
