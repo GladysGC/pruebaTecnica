@@ -56,7 +56,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <p>Traducción: <strong><?php echo ($resultado); ?></strong></p>
        
     <?php endif; ?>
-    <a href="index.html">Volver</a>
+    <a href="index.php">Volver</a>
 </body>
 </html>
 

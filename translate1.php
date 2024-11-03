@@ -70,5 +70,6 @@ function traducir_dia_en_fr($day, $lang) {
         <p class="error"><?php echo traducir_dia_en_fr("mky", "es"); ?></p>
         <p class="error"><?php echo traducir_dia_en_fr("lunes", "ep"); ?></p>
     </div>
+    <a href="index.php">Volver</a>
 </body>
 </html>
