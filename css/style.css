@@ -19,7 +19,6 @@
 }
 
 .header{
-    -border: 2px solid hsl(248, 92%, 52%);
     margin: auto;
     height: 7rem;
     display: flex;
@@ -28,18 +27,17 @@
 .header img{
     width:80px;
     min-height: auto;
-    margin-right: 10px;
-    -border: 2px solid #000000;
 }
 
 .header h1{
-    font-size: 54px;
+    font-size: 64px;
     color: var(--color-principal);
     margin: 1rem;
+    padding-left: 2rem;
+    letter-spacing: 2px;
 }
 
 .questions{
-    border: 2px solid hsl(248, 92%, 52%);
     padding: 3rem;
     background-image: url('../Image/pulTeg.jpg'); 
     background-size: cover;        
@@ -47,7 +45,8 @@
     display: flex;            
     flex-direction: column;     
     justify-content: center;     
-    align-items: center; 
+    align-items: center;
+ 
     }
 
 .questions h1 {
@@ -60,34 +59,31 @@
 }
 
 .questions h2 {
-    margin: 1rem;
+    margin: 0.5rem;
     padding: 1rem;
     font-size: 24px;
     letter-spacing: 1px;
     color: var(--color-principal);
 }
 
-.questions p {
+.questions p a {
     font-size: 20px;
     color:#f3f3f3; 
-    margin-bottom: 15px;
+    margin-bottom: 12px;
+    text-decoration: none; 
+    padding: 7px; 
+    display: inline-block; 
+    
+}
+.questions p a:hover {
+    background-color: var(--color-principal);
+    cursor: pointer; 
+    width: 700px;;
 }
 
-form label {
-    font-size: 18px;
-    color:#f3f3f3; 
-    margin-right: 10px;
-    letter-spacing: 2px;
+.questions p a:active {
+    -transform: scale(0.95); 
 }
-
-select {
-    margin: 1.5rem;
-    padding: 10px;
-    font-size: 16px;
-    border-radius: 4px;
-    background-color:var(--color-principal);
-}
-
 footer {
     margin-top: 20px;
 }
