@@ -23,3 +23,4 @@ echo "Fecha  de inicio: $fechaInicio . </br>";
 echo "Fecha  de fin: $fechaFin";
 
 ?>
+<a href="index.php">Volver</a>

@@ -1,0 +1,119 @@
+:root {
+    --color-principal: #FA553E; 
+    --color-secundario: #f3f3f3; 
+    --color-texto: #0b0808; 
+    --color-link: #0066cc;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--color-secundario);
+    color: var(--color-texto);
+    line-height: 1.6; 
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    padding: 20px;
+}
+
+.questions {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(239, 15, 10, 0.1); 
+    max-width: 900px; 
+    margin: 20px auto;
+}
+
+.questions h1 {
+    font-size: 2rem; 
+    text-align: center;
+    color: var(--color-principal);
+    margin: 2rem 0;
+}
+
+.questions h2 {
+    margin: 1rem 0;
+    padding: 1rem;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    text-align: center;
+    color: var(--color-principal);
+    font-weight: bold;
+}
+
+.parrafo {
+    text-align: justify; 
+       margin: 20px 0;
+       padding: 1.2rem;
+    }
+
+.parrafo ul li {
+    margin-left: 1em;
+    margin-bottom: 10px;
+    -text-indent: -1.5em;
+}
+
+.comando{
+    padding: 1rem;
+    background-color: var(--color-principal) ;
+    color: var(--color-secundario);
+    text-align: center;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center; 
+    color: var(--color-texto);
+}
+
+footer h3 {
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+footer ul li {
+    margin: 5px 0; 
+}
+
+footer a {
+    color: var(--color-link);
+    text-decoration: none; 
+}
+
+@media (max-width: 600px) {
+    .header h1 {
+        font-size: 1.8rem; 
+    }
+
+    .questions h1 {
+        font-size: 1.5rem; 
+    }
+
+    .questions h2 {
+        font-size: 1.2rem; 
+    }
+
+    .questions p a {
+        font-size: 1rem; 
+    }
+}
